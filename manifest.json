@@ -1,0 +1,25 @@
+
+{
+    "manifest_version": 2,
+
+    "name": "Copy",
+    "description": "This extension demonstrates a 'browser action' with kittens.",
+    "version": "1.0.1",
+    "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["contentScript.js"]
+    }
+   ],
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "clipboardRead",
+        "clipboardWrite",
+        "activeTab"
+    ],
+    "minimum_chrome_version" : "6.0.0.0",
+    "background": {
+    "scripts": ["copySelect.js"]
+    }
+}
