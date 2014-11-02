@@ -12,8 +12,6 @@ This is an extension that lets you copy all the text content on the page that ha
 INSTALLING THE EXTENSION:
 ------------------------
 
-Installing the extension:
-
 Open Chrome.
 Go to chrome://extensions/
 Check the box for Developer Mode.
